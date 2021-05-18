@@ -114,7 +114,7 @@ li {
 	padding: 1vh;
 	text-decoration: none;
 	font-style: italic;
-	color: rgba(48, 48, 48, 0.761);
+	color: rgba(254, 254, 254, 0.761);
 }
 .col__btn--fourth {
 	max-width: 200px;
@@ -125,13 +125,13 @@ li {
 	border-radius: 20px;
 	border: 4px solid rgb(18, 238, 212);
 	background-color: Transparent;
-	color: rgb(18, 238, 212);
+	color: white;
 	text-align: center;
 	text-decoration: none;
 	cursor: pointer;
 }
 .col__btn--fourth:hover {
 	color: rgb(255, 255, 255);
-	background-color: rgb(242, 45, 140);
-	border-color: rgb(242, 45, 140);
+	background-color: rgb(18, 238, 212);
+	border-color: rgb(18, 238, 212);
 }
