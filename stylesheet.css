@@ -264,15 +264,7 @@ figcaption {
 	transform: translate3d(0, -50%, 0) rotate(-45deg);
 	transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-.js-slider_nav_item:hover {
-	transform: translate3d(-30%, 0, 0);
-}
-.js-slider_nav_item.next:hover {
-	transform: rotateY(180deg) translate3d(-30%, 0, 0);
-}
-.js-slider_nav_item:hover:before {
-	transform: translate3d(0, -50%, 0) rotate(-30deg);
-}
+
 .js-slider_nav_item:after {
 	content: "";
 	position: absolute;
@@ -300,12 +292,6 @@ figcaption {
 	display: inline-block;
 	padding: 2rem;
 	cursor: pointer;
-}
-
-#s-1:checked ~ .js-slider .js-slider_indicator .indi-1:after,
-#s-2:checked ~ .js-slider .js-slider_indicator .indi-2:after,
-#s-3:checked ~ .js-slider .js-slider_indicator .indi-3:after {
-	transform: translate3d(-50%, -50%, 0) scale(2.5);
 }
 
 /** THIS IS THE FOOTER **/
