@@ -16,7 +16,7 @@ li {
 	font-size: 2em;
 }
 
-/** NAVIGATION SECTION **/
+/** FIRST SECTION **/
 .background {
 	position: absolute;
 	background: url("./images/wallpaper_1.png");
@@ -75,7 +75,7 @@ li {
 	color: rgba(245, 245, 245, 0.761);
 }
 
-/** SECOND CONTAINER SECTION**/
+/** SECOND SECTION**/
 .second__background {
 	position: relative;
 	z-index: 10;
@@ -170,7 +170,7 @@ input[type="radio"] {
 .js-slider {
 	position: relative;
 	width: 80%;
-	height: 100vh;
+	height: 60vh;
 	margin: 0 auto;
 }
 .js-slider_item {
@@ -199,14 +199,6 @@ input[type="radio"] {
 	height: 60%;
 	position: relative;
 	overflow: hidden;
-}
-.c-img-w-full {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width: 100%;
-	height: auto;
-	transform: translate3d(-50%, -50%, 0);
 }
 .c-img-h-full {
 	position: absolute;
@@ -315,3 +307,5 @@ figcaption {
 #s-3:checked ~ .js-slider .js-slider_indicator .indi-3:after {
 	transform: translate3d(-50%, -50%, 0) scale(2.5);
 }
+
+/** THIS IS THE FOOTER **/
